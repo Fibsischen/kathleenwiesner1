@@ -1,0 +1,43 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Unbenanntes Dokument</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<link href="../Vorlage_Seiten.css" rel="stylesheet" type="text/css"><!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+
+<body>
+
+<div class="container">
+  <div class="header">
+    <h1>Web-Engineering</h1>
+    <ul id="Untertext">
+    	<li>Web-Engineering I</li>
+    	<li>Grundlagen der Web-Entwicklung </li>
+    </ul>
+   <!--<img src="../bilder/wuerfel.png" alt="Dies ist ein Rubikwürfel." name="Headerbild" id="Headerbild">--></div>
+  <div class="main"><!-- TemplateBeginEditable name="EditRegion3" -->
+  <div class="content"> </div>
+  <!-- TemplateEndEditable -->
+    <div class="sidebar">
+        <h3>Sidebar</h3>
+    	<ul>
+            <li><a href="../index.html">Startseite</a></li>
+            <li><a href="../Sites/uebersicht-hausaufgaben.html">Übersicht</a></li>
+            <li><a href="../Sites/impressum.html">Impressum</a></li>
+            <li><a href="../Sites/kontakt.html">Kontakt</a></li>
+        </ul>
+    </div>	
+  </div>
+  <div class="footer">
+    <p>© Copyright 2013 by Kathleen Wiesner &#8226;  <a href="../Sites/impressum.html">Impressum</a> &#8226;   <a href="../Sites/kontakt.html">Kontakt</a></p>
+  </div>
+  </div>
+</body>
+</html>

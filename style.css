@@ -3,10 +3,10 @@ th {
 	border: thin solid #000;
 }
 table {
-	font-family: Georgia, "Times New Roman", Times, serif;
+	/* [disabled]font-family: Georgia, "Times New Roman", Times, serif; */
 	/* [disabled]background-color: #CCC; */
-	padding: 10px;
-	width: 100%;
+	padding: 0px;
+	width: 90%;
 	/* [disabled]border: thin solid #000; */
 }
 tr {
@@ -24,8 +24,18 @@ table th[scope=row] {
 	border-left-color: #999;
 	padding-right: 5px;
 	padding-left: 5px;
-	font-weight: normal;
+	font-weight: bold;
+	font-size: small;
 }
+
+table th[scope=row]:before {
+	content: '<';
+}
+
+table th[scope=row]:after {
+	content: '>';
+}
+
 
 td {
 	border-top-width: thin;
@@ -41,6 +51,8 @@ td {
 	border-bottom-color: #CCC;
 	border-left-color: #CCC;
 	padding-left: 8px;
+	font-size: small;
+	font-weight: normal;
 }
 table th[scope=col] {
 	background-color: #B5B5B5;
@@ -50,5 +62,18 @@ table th[scope=col] {
 	border-right-color: #666;
 	border-bottom-color: #666;
 	border-left-color: #666;
-	font-size: large;
+	font-size: small;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 5px;
+}
+td[title="Ja"] {
+	background-image: url(bilder/ja.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+td[title="Nein"] {
+	background-image: url(bilder/nein.png);
+	background-repeat: no-repeat;
+	background-position: center center;
 }
