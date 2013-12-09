@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <!-- InstanceBeginEditable name="doctitle" -->
-<title>Übersicht Hausaufgaben</title>
+<title>Hausaufgabe 3</title>
 <!-- InstanceEndEditable -->
 <!-- InstanceBeginEditable name="head" -->
 <!-- InstanceEndEditable -->
@@ -24,17 +24,21 @@
    <!--<img src="../bilder/wuerfel.png" alt="Dies ist ein Rubikwürfel." name="Headerbild" id="Headerbild">--></div>
   <div class="main"><!-- InstanceBeginEditable name="EditRegion3" -->
   <div class="content"> 
-    <h2>Übersicht über alle Hausaufgaben</h2>
-    <ul>
-        <li><h3><a href="../Sites/hausaufgabe-1.html">Hausaufgabe 1 - Seite in CoudControl erstellen</a></h3><div class="Untertext">erstellen einer Seite und Upload in Cloud</div></li>
-        <li><h3><a href="../Sites/hausaufgabe-2.html">Hausaufgabe 2 - erstellen einer formatierten Html Tabelle</a></h3><div class="Untertext">erstellen einer Tabelle mit den HTML Eigenschaften</div></li>
-                <li><h3><a href="../Sites/hausaufgabe-3.html">Hausaufgabe 3 - barrierefreien Webformulares</a></h3><div class="Untertext">erstellen eines barrierefreien Webformulares</div></li>
-    </ul>
-  
+  <form width="300px" action="http://de.wikipedia.org/wiki/Spezial:Suche">
+   <fieldset>
+      <legend>Suchen eines Wikipedia Artikels</legend>
+      <input type="text"   name="search" value="" />
+      <input type="submit" name="go" value="Artikel" onclick="location='http://de.wikipedia.org/wiki/' + this.form.search.value"/>
+      <input type="submit" name="fulltext" value="Volltext" onclick="location='http://de.wikipedia.org/wiki/'"/>
+   </fieldset>
+</form>
+<p>
+  <a href="http://wave.webaim.org/report#/http%3A%2F%2Fkathleenwiesner1.cloudcontrolapp.com%2F"><img src="../bilder/wcag2AAA.gif" width="88" height="31"></a>
+  </p>
   </div>
   <!-- InstanceEndEditable -->
     <div class="sidebar">
-        <h3>Sidebar</h3>
+      <h3>Sidebar</h3>
     	<ul>
             <li><a href="../index.html">Startseite</a></li>
             <li><a href="uebersicht-hausaufgaben.html">Übersicht</a></li>
